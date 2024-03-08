@@ -1,0 +1,30 @@
+.callout {
+	max-width: 400px;
+    margin: 10px solid white; /* no need to include the color here*/
+    border: 1px; /* should be 1px solid rgba(0,0,0,.1) with the importance on the .1 */
+    padding: 15px;
+    background-color: steelblue;
+    color: white;
+}
+
+.callout img {
+	float: inline-end; /* float right */
+    margin: 1px; /* 0 0 10px 15px to set correct margins */
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+    width: 80px;
+    height: 120px; /* should be auto */
+}
+
+blockquote {
+	margin: 1px; /* set to 0 */
+}
+
+cite {
+	display: block;
+    border-top: 1px dotted white;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 16px solid white; /* set to 'smaller' which is apparently something you can do */
+}
