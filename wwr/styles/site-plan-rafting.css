@@ -1,6 +1,6 @@
-@import url(https://fonts.google.com/specimen/Montserrat?stroke=Sans+Serif);
+@import url('https://fonts.google.com/specimen/Montserrat?stroke=Sans+Serif');
 body {
-    font-family: var( --paragraph-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
