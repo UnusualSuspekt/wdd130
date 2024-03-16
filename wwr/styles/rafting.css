@@ -14,19 +14,13 @@
     --nav-hover-link-color: #66717e;
     --nav-hover-background-color: #66717e;
 
-    max-width: 200px; /*Check 3.7*/
+    max-width: 1500px;
+    margin: 10px;
 }
-
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
 }
 
 p {
@@ -34,43 +28,63 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-.sociallinks {
-    text-decoration-line: none; /*Check 3.6*/
+img {
+    display: block;
+    padding: 5px;
+    border: 1px;
+}
+.sociallinks img{
+    text-decoration-line: none;
+    max-width: 10%;
+    height: auto;
+    display: flex;
 }
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
-.hero {         /*Check 4.all*/
+.hero {
     position: relative;
 }
+
+.hero h1 {
+    position: absolute;
+    background-color: rgba(17, 18, 19, 0.8);
+    bottom: 225px;
+    left: 680px;
+    
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 .hero article {
     position: absolute;
+    background-color: rgba(102, 113, 126, .7);
+    bottom: 50px;
+    left: 5px;
 }
 
 .hero article img {
+    position: relative;
     float: right;
+    width: 15%;
+    height: auto;
+    margin: 15px;
+    border: 1px;
+    padding: 2px;
 }
