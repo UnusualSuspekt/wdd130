@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    padding: 25px;
+    padding: 20px;
+    max-width: 800px;
 }
 
 nav {
@@ -43,12 +44,6 @@ img {
     padding: 5px;
     border: 1px;
 }
-.sociallinks img{
-    text-decoration-line: none;
-    max-width: 10%;
-    height: auto;
-    display: flex;
-}
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -61,30 +56,42 @@ nav a:link, nav a:visited {
 .hero h1 {
     position: absolute;
     background-color: rgba(17, 18, 19, 0.8);
+    width: 1484px;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
     bottom: 225px;
-    left: 680px;
-    
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
 
 .hero article {
     position: absolute;
     background-color: rgba(102, 113, 126, .7);
     bottom: 50px;
-    left: 5px;
+    left: 350px;
 }
 
 .hero article img {
     position: relative;
     float: right;
-    width: 15%;
+    width: 25%;
     height: auto;
     margin: 15px;
     border: 1px;
     padding: 2px;
+}
+
+.sociallinks img{
+    text-decoration-line: none;
+    width: 12%;
+    height: auto;
+    display: flex;
 }
