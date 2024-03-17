@@ -90,7 +90,7 @@ nav a:link, nav a:visited {
 }
 
 .sociallinks img{
-    text-decoration-line: none;
+    text-decoration: none;
     width: 12%;
     height: auto;
     display: flex;
