@@ -52,6 +52,10 @@ aside {
     grid-row: 1/2;
 }
 
+li a {
+    color: rgb(135, 178, 216);
+}
+
 aside h2 {
     position: absolute;
     top: 77px;
@@ -81,7 +85,7 @@ header, .grid, footer {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1em;
     color: white;
-    background-color: #191935;
+    background-color: #0e0e0e;
     max-width: fit-content;
 }
 
