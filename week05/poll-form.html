@@ -6,6 +6,7 @@
     <title>WDD 130 | HTML Form - User Poll</title>
     <meta name="author" content="Wyatt Ross">
     <meta name="description" content="poll form practice assignment for wdd130">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -15,22 +16,30 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="edge">Microsoft Edge</option>
-                    <option value="explorer">Microsoft Explorer</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" name="pet" id="pet">
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="edge">Microsoft Edge</option>
+                        <option value="explorer">Microsoft Explorer</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
                 <label for="places">List the places you have lived:</label>
                 <textarea name="places" id="places" rows="4">Mexico, Austria, Canada</textarea>
             </fieldset>
