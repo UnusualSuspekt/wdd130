@@ -94,15 +94,7 @@ footer {
 .column1 {
     grid-template-rows: 1fr 1fr;
 }
-/*
-.column2 {
 
-}
-
-.column3 {
-
-}
-*/
 .scale {
     text-align: left;
     background-color: darkslategray;
