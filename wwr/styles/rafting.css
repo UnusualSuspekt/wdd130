@@ -286,3 +286,66 @@ footer {
     grid-template-columns: 1fr 2fr;
     border-bottom: 1px solid black;
 }
+
+.trips {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450 300px;
+    padding: 10px;
+}
+
+.trip1 {
+    grid-column: 2/3;
+}
+
+.trip2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.trip3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.trip4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.calltable {
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid gray;
+    font-size: 0.95rem;
+}
+
+thead, tfoot {
+    background-color: #5d6d8156;
+}
+
+th, td {
+    border: 1px solid darkgrey;
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: #c5bca041;
+}
+
+.actioncall {
+    text-align: center;
+    margin: 25px;
+}
